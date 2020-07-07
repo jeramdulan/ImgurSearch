@@ -1,0 +1,58 @@
+.jumbotron {
+  background-image: url('../../images/jumbotron.jpg');
+  background-size: cover;
+  padding-top: 20px;
+  color: aliceblue;
+}
+
+.headTitle {
+  text-align: center;
+}
+
+.searchArea {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  min-height: 210px;
+  margin-bottom: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.cardImage {
+  width: 100%;
+}
+.searchInputField {
+  height: 45.56px;
+  margin: 0;
+  border: 1px solid;
+}
+.searchWrapper {
+  text-align: right;
+  padding: 10px 30px 30px;
+}
+.searchBtn {
+  padding: 10px 20px !important;
+  background-color: blue;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-bottom: 6px;
+}
+.contentRow {
+  padding: 0 15px;
+  margin: 0 !important;
+}
+.noData {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.toggleLabel {
+  margin-left: 20px;
+}

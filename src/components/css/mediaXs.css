@@ -1,0 +1,12 @@
+/* iPhone (portrait) ----------- */
+@media only screen and (max-width: 380px) {
+    .display-4 {
+      font-size: 16px !important;
+      position: relative;
+      bottom: 15px;
+    }
+    .jumbotron {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
